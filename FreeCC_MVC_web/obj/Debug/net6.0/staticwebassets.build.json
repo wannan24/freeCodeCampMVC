@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yHMFFVpd/JRArVsuROtoMm6kRxQUupp+fKrzpzZVSUg=",
+  "Hash": "voDT0UUe4n2p7sTbiYr+kJsqGyIEjbSBjo/87DKJf4Q=",
   "Source": "FreeCC_MVC_web",
   "BasePath": "_content/FreeCC_MVC_web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\LENOVO\\Desktop\\projects\\FreeCC_MVC\\FreeCC_MVC_web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FreeCC_MVC_web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\projects\\FreeCC_MVC\\FreeCC_MVC_web\\wwwroot\\css\\Bootswatch.css",
+      "SourceId": "FreeCC_MVC_web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\projects\\FreeCC_MVC\\FreeCC_MVC_web\\wwwroot\\",
+      "BasePath": "_content/FreeCC_MVC_web",
+      "RelativePath": "css/Bootswatch.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Bootswatch.css"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\Desktop\\projects\\FreeCC_MVC\\FreeCC_MVC_web\\wwwroot\\css\\site.css",
