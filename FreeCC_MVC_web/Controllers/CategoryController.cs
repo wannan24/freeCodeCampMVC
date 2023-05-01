@@ -72,5 +72,38 @@ namespace FreeCC_MVC_web.Controllers
             return View(obj);
         }
 
+        public IActionResult Delete(int? Id)
+        {
+            if (Id == null || Id == 0)
+            {
+                return NotFound();
+            }
+            var categoryFromDb = _db.categories.Find(Id);
+
+            if (categoryFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(categoryFromDb);
+        }
+
+
+        [ValidateAntiForgeryToken]
+        [HttpPost]
+        public IActionResult Delete(category obj)
+        {
+            if (obj.Name == obj.DisplayOdrder.ToString())
+            {
+                ModelState.AddModelError("name", "Name and Display Order cannot be the same.");
+            }
+            if (ModelState.IsValid)
+            {
+                _db.categories.Remove(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(obj);
+        }
+
     }
 }
